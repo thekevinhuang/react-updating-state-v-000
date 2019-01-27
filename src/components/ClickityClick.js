@@ -11,13 +11,16 @@ export default class ClickityClick extends Component {
   }
 
   handleClick = () => {
-
+    this.setState({
+      hasbeenClicked: true
+    })
   }
 
   render() {
     return(
       <div>
-        <p> </p>
+        <p>I have {this.state.hasBeenClicked ? null : 'not'} been clicked!</p>
+        <button onClick={this.handleClick}>Click me!</button>
       </div>
     )
   }
