@@ -11,7 +11,7 @@ export default class ClickityClick extends Component {
   }
 
   handleClick = () => {
-    
+
   }
 
   render() {
