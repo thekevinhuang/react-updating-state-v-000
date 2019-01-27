@@ -9,4 +9,16 @@ export default class ClickityClick extends Component {
       hasBeenClicked: false
     }
   }
+
+  handleClick = () => {
+    
+  }
+
+  render() {
+    return(
+      <div>
+        <p> </p>
+      </div>
+    )
+  }
 }
